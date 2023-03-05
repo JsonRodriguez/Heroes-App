@@ -12,7 +12,6 @@ export const AppRouter = () => {
                 <Route path="dc" element={<DcPage />} />
                 <Route path="login" element={<LoginPages />} />
                 
-                
                 <Route path="/" element={<Navigate to="/marvel" />} />
             </Routes>
         </>
