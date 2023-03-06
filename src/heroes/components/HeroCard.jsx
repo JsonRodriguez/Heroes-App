@@ -15,7 +15,7 @@ export const HeroCard = ({
         <div className="col">
             <div className="card">
                 <div className="row no-gutters">
-                    <div className="col-4">
+                    <div className="col-4 animate__animated animate__zoomIn">
                         <img className="card-img" src={heroeImageUrl} alt={ superhero } />
                     </div>
                     <div className="col-8">
