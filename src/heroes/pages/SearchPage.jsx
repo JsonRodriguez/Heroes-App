@@ -27,7 +27,7 @@ export const SearchPage = () => {
     }
 
     return (
-        <>
+        <div className="main glass-effect">
             <h1>Search</h1>
             <hr />
 
@@ -55,13 +55,6 @@ export const SearchPage = () => {
                     <h4>Results</h4>
                     <hr />
 
-                    {/* {
-                        (q === '')
-                            ? <div className="alert alert-primary">Search a Hero</div>
-                            : ( heroes.length === 0 )
-                                && <div className="alert alert-danger">No Hero Found</div>
-                    } */}
-
                     <div 
                         className="alert alert-primary animate__animated animate__fadeIn" 
                         style={{ display: showSearch ? '' : 'none' }}
@@ -84,6 +77,6 @@ export const SearchPage = () => {
 
                 </div>
             </div>
-        </>
+        </div>
     )
 }

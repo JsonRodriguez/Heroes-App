@@ -1,0 +1,60 @@
+/* .body{
+    height: 100%;
+    padding-bottom: 40px;
+    background-image: url(../src/images/MarvelAndDc.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    block-size: cover;
+} */
+
+*{
+    color: white;
+}
+
+body{
+    height: 100%;
+    padding-bottom: 40px;
+    background-image: url(../src/images/MarvelAndDc.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    block-size: cover;
+}
+
+.main{
+    height: 100%;
+    margin-top: 50px;
+    border-radius: 10px;
+    padding: 20px;
+    border: 2px solid #fafafa10;
+}
+
+h1{
+    color: white;
+}
+
+.glass-effect{
+    background: #fafafa10;
+    backdrop-filter: blur(0.4rem);
+    -webkit-backdrop-filter: blur(0.4rem);
+    border-radius: 10px;
+}
+
+.card{
+    min-height: 250px;
+    background: #fafafa00;
+    backdrop-filter: blur(0.4rem);
+    -webkit-backdrop-filter: blur(0.4rem);
+    box-shadow: 5px 5px 10px #ffffff4b;
+}
+
+.text-comic{
+    color: #bdbdbd;
+    font-style: italic;
+}
+
+.list-group-item{
+    color: #bdbdbd;
+    background: #fafafa00;
+}
